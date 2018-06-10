@@ -1,0 +1,93 @@
+*
+{
+    box-sizing: border-box;
+}
+body
+{
+    background: #50c1d7;
+    border-radius: 4px;
+}
+#container
+{
+    text-outline: none;
+    background: #50c1d7;
+    width: 400px;
+    height: 540px;
+    margin: 2% auto;
+    display: block;
+    color: white;
+}
+
+#flex,#flex2
+{
+    width: inherit;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+
+}
+#flex2
+{
+    height: 75px;
+}
+#flex3
+{
+    margin: 2px;
+    overflow: hidden;
+    display: flex;
+    height: 75px;
+    justify-content: space-between;
+}
+#image-container
+{
+    text-align: center;
+    width: inherit;
+    height: 240px;
+}
+#temp
+{
+    font-size: 30px;
+    font-weight: bold;
+}
+#location
+ {
+    font-size: 25px;
+    font-weight: bold;
+ }
+#location,#temp
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    height: inherit;
+    width: 100px;
+    text-align: center;
+    padding-top: 20px;
+}
+#wind,#description
+{
+    text-transform: uppercase;
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 16px;
+    padding-top: 15px;
+}
+button::-moz-focus-inner,button:focus
+{
+    outline:none;
+    border: none;
+}
+button
+{
+
+    text-align: center;
+    text-transform: uppercase;
+    outline:none;
+    border: none;
+    height: inherit;
+    width: 55px;
+    background-color: #1890a8;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+}
